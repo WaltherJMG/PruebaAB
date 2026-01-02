@@ -1,427 +1,412 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Varilla PVC</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Varilla PVC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
+    <header class="navbar">
+      <div class="navbar-container">
+        <!-- LOGO -->
+        <div class="navbar-left">
+          <img src="img/logo.jpg" alt="Atlas Plásticos" class="logo" />
+        </div>
 
-<header class="navbar">
-  <div class="navbar-container">
+        <!-- MENÚ DESKTOP -->
+        <nav class="navbar-center">
+          <a href="#">Varilla PVC</a>
+          <a href="#">Cielorraso</a>
+          <a href="#">Cortina Completa</a>
+          <a href="#">Cordón PVC</a>
+        </nav>
 
-    <!-- LOGO -->
-    <div class="navbar-left">
-      <img src="img/logo.jpg" alt="Atlas Plásticos" class="logo">
-    </div>
+        <!-- ICONOS + HAMBURGUESA -->
+        <div class="navbar-right">
+          <span class="icon"><ion-icon name="search-outline"></ion-icon></span>
+          <span class="icon"><ion-icon name="cart-outline"></ion-icon></span>
 
-    <!-- MENÚ DESKTOP -->
-    <nav class="navbar-center">
-      <a href="#">Varilla PVC</a>
-      <a href="#">Cielorraso</a>
-      <a href="#">Cortina Completa</a>
-      <a href="#">Cordón PVC</a>
-    </nav>
+          <!-- HAMBURGUESA -->
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
 
-    <!-- ICONOS + HAMBURGUESA -->
-    <div class="navbar-right">
-      <span class="icon"><ion-icon name="search-outline"></ion-icon></span>
-      <span class="icon"><ion-icon name="cart-outline"></ion-icon></span>
+      <!-- MENÚ MOBILE -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#">Varilla PVC</a>
+        <a href="#">Cielorraso</a>
+        <a href="#">Cortina Completa</a>
+        <a href="#">Cordón PVC</a>
+      </div>
+    </header>
 
-      <!-- HAMBURGUESA -->
-      <button class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
+    <main>
+      <h1>Varilla PVC</h1>
+      <div class="results">2 resultados</div>
 
-  </div>
+      <!-- ===== VERSION A ===== -->
+      <section id="version-a" class="products version-a hidden">
+        <!-- Card 1 -->
+        <div class="card" data-version="A" data-product="Varilla PVC 20m">
+          <div class="carousel">
+            <button class="arrow left">‹</button>
+            <img src="img/varilla1.jpg" class="active" />
+            <img src="img/varilla2.jpg" />
+            <img src="img/varilla3.jpg" />
+            <img src="img/varilla4.jpg" />
+            <img src="img/varilla5.jpg" />
+            <button class="arrow right">›</button>
+          </div>
 
-  <!-- MENÚ MOBILE -->
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="#">Varilla PVC</a>
-    <a href="#">Cielorraso</a>
-    <a href="#">Cortina Completa</a>
-    <a href="#">Cordón PVC</a>
-  </div>
-</header>
+          <h3>Varilla de PVC Repuesto de Cortina Reforzada (20 m)</h3>
+          <div class="price">$ 2.110</div>
+          <button class="cta">Comprar ahora</button>
+        </div>
 
-<main>
-    <h1>Varilla PVC</h1>
-  <div class="results">2 resultados</div>
+        <!-- Card 2 -->
+        <div class="card" data-version="A" data-product="Varilla PVC 19m">
+          <div class="carousel">
+            <button class="arrow left">‹</button>
+            <img src="img/varilla6.jpg" class="active" />
+            <img src="img/varilla1.jpg" />
+            <img src="img/varilla7.jpg" />
+            <img src="img/varilla8.jpg" />
+            <img src="img/varilla3.jpg" />
+            <img src="img/varilla5.jpg" />
+            <button class="arrow right">›</button>
+          </div>
 
+          <h3>Varilla de PVC para Paños de Cortina Reforzada (19 m)</h3>
+          <div class="price">$ 2.110</div>
+          <button class="cta">Comprar ahora</button>
+        </div>
+      </section>
 
-  <!-- ===== VERSION A ===== -->
-  <section id="version-a" class="products version-a hidden">
+      <!-- ===== VERSION B ===== -->
+      <section id="version-b" class="products version-b hidden">
+        <!-- Card 1 -->
+        <div class="card" data-version="B" data-product="Varilla PVC 20m">
+          <div class="carousel">
+            <button class="arrow left">‹</button>
+            <img src="img/varilla1.jpg" class="active" />
+            <img src="img/varilla2.jpg" />
+            <img src="img/varilla3.jpg" />
+            <img src="img/varilla4.jpg" />
+            <img src="img/varilla5.jpg" />
+            <button class="arrow right">›</button>
+          </div>
 
-  <!-- Card 1 -->
-  <div class="card" data-version="A" data-product="Varilla PVC 20m">
-    <div class="carousel">
-      <button class="arrow left">‹</button>
-      <img src="img/varilla1.jpg" class="active">
-      <img src="img/varilla2.jpg">
-      <img src="img/varilla3.jpg">
-      <img src="img/varilla4.jpg">
-      <img src="img/varilla5.jpg">
-      <button class="arrow right">›</button>
-    </div>
+          <h3>Varilla de PVC Repuesto de Cortina Reforzada (20 m)</h3>
+          <div class="price">$ 2.110</div>
+          <button class="cta">Agregar al carrito</button>
+        </div>
 
-    <h3>Varilla de PVC Repuesto de Cortina Reforzada (20 m)</h3>
-    <div class="price">$ 2.110</div>
-    <button class="cta">Comprar ahora</button>
-  </div>
+        <!-- Card 2 -->
+        <div class="card" data-version="B" data-product="Varilla PVC 19m">
+          <div class="carousel">
+            <button class="arrow left">‹</button>
+            <img src="img/varilla6.jpg" class="active" />
+            <img src="img/varilla1.jpg" />
+            <img src="img/varilla7.jpg" />
+            <img src="img/varilla8.jpg" />
+            <img src="img/varilla3.jpg" />
+            <img src="img/varilla5.jpg" />
+            <button class="arrow right">›</button>
+          </div>
 
-  <!-- Card 2 -->
-  <div class="card" data-version="A" data-product="Varilla PVC 19m">
-    <div class="carousel">
-      <button class="arrow left">‹</button>
-      <img src="img/varilla6.jpg" class="active">
-      <img src="img/varilla1.jpg">
-      <img src="img/varilla7.jpg">
-      <img src="img/varilla8.jpg">
-      <img src="img/varilla3.jpg">
-      <img src="img/varilla5.jpg">
-      <button class="arrow right">›</button>
-    </div>
+          <h3>Varilla de PVC para Paños de Cortina Reforzada (19 m)</h3>
+          <div class="price">$ 2.110</div>
+          <button class="cta">Agregar al carrito</button>
+        </div>
+      </section>
 
-    <h3>Varilla de PVC para Paños de Cortina Reforzada (19 m)</h3>
-    <div class="price">$ 2.110</div>
-    <button class="cta">Comprar ahora</button>
-  </div>
+      <div class="shipping">
+        El envío gratis está sujeto al peso, precio y a la distancia del envío.
+      </div>
+    </main>
 
-</section>
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <div class="footer-content">
+        <div>
+          <img src="img/logo.jpg" alt="Atlas Plásticos" />
+          <p>Atlas Plásticos S.R.L.</p>
+        </div>
 
-  <!-- ===== VERSION B ===== -->
-  <section id="version-b" class="products version-b hidden">
+        <div>
+          <strong>Categorías</strong><br /><br />
+          Varilla PVC<br />
+          Cielorraso<br />
+          Cortina Completa<br />
+          Cordón PVC
+        </div>
 
-  <!-- Card 1 -->
-  <div class="card" data-version="B" data-product="Varilla PVC 20m">
-    <div class="carousel">
-      <button class="arrow left">‹</button>
-      <img src="img/varilla1.jpg" class="active">
-      <img src="img/varilla2.jpg">
-      <img src="img/varilla3.jpg">
-      <img src="img/varilla4.jpg">
-      <img src="img/varilla5.jpg">
-      <button class="arrow right">›</button>
-    </div>
+        <div>
+          <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span
+          ><br />
+          Tel: 1133525550<br />
+          atlas@atlasplasticos.com.ar<br />
+          Manuel Bermúdez 4542, Caseros<br />
+          Buenos Aires <br />
+          <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+          Escribenos<br />
+        </div>
+      </div>
+    </footer>
 
-    <h3>Varilla de PVC Repuesto de Cortina Reforzada (20 m)</h3>
-    <div class="price">$ 2.110</div>
-    <button class="cta">Agregar al carrito</button>
-  </div>
-
-  <!-- Card 2 -->
-  <div class="card" data-version="B" data-product="Varilla PVC 19m">
-    <div class="carousel">
-      <button class="arrow left">‹</button>
-      <img src="img/varilla6.jpg" class="active">
-      <img src="img/varilla1.jpg">
-      <img src="img/varilla7.jpg">
-      <img src="img/varilla8.jpg">
-      <img src="img/varilla3.jpg">
-      <img src="img/varilla5.jpg">
-      <button class="arrow right">›</button>
-    </div>
-
-    <h3>Varilla de PVC para Paños de Cortina Reforzada (19 m)</h3>
-    <div class="price">$ 2.110</div>
-    <button class="cta">Agregar al carrito</button>
-  </div>
-
-</section>
-
-<div class="shipping">
-    El envío gratis está sujeto al peso, precio y a la distancia del envío.
-  </div>
-
-</main>
-
-<!-- ===== FOOTER ===== -->
-<footer>
-  <div class="footer-content">
-    <div>
-      <img src="img/logo.jpg" alt="Atlas Plásticos">
-      <p>Atlas Plásticos S.R.L.</p>
-    </div>
-
-    <div>
-      <strong>Categorías</strong><br><br>
-      Varilla PVC<br>
-      Cielorraso<br>
-      Cortina Completa<br>
-      Cordón PVC
-    </div>
-
-    <div>
-      <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span><br>
-      Tel: 1133525550<br>
-      atlas@atlasplasticos.com.ar<br>
-      Manuel Bermúdez 4542, Caseros<br>
-      Buenos Aires <br>
-      <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>  Escribenos<br>
-    </div>
-  </div>
-</footer>
-
-<script>
-/* =====================================================
+    <script>
+      /* =====================================================
      A/B TEST – ASIGNACIÓN ALEATORIA (INVISIBLE AL USUARIO)
   ====================================================== */
-  function assignABVersion() {
-    let version = localStorage.getItem("ab_version");
+      function assignABVersion() {
+        let version = localStorage.getItem("ab_version");
 
-    if (!version) {
-      version = Math.random() < 0.5 ? "A" : "B";
-      localStorage.setItem("ab_version", version);
-    }
+        if (!version) {
+          version = Math.random() < 0.5 ? "A" : "B";
+          localStorage.setItem("ab_version", version);
+        }
 
-    // Ocultar ambas versiones
-    document.getElementById("version-a").classList.add("hidden");
-    document.getElementById("version-b").classList.add("hidden");
+        // Ocultar ambas versiones
+        document.getElementById("version-a").classList.add("hidden");
+        document.getElementById("version-b").classList.add("hidden");
 
-    // Mostrar solo la versión asignada
-    const visibleSection = version === "A" ? "version-a" : "version-b";
-    document.getElementById(visibleSection).classList.remove("hidden");
-  }
+        // Mostrar solo la versión asignada
+        const visibleSection = version === "A" ? "version-a" : "version-b";
+        document.getElementById(visibleSection).classList.remove("hidden");
 
-  assignABVersion();
+        // Registrar impresión
+        registerImpression(version);
+      }
 
-/* NAVBAR SCROLL */
-const navbar = document.querySelector('.navbar');
+      assignABVersion();
 
-let scrollLogged = false;
+      /* NAVBAR SCROLL */
+      const navbar = document.querySelector(".navbar");
+      let scrollLogged = false;
 
-window.addEventListener("scroll", () => {
-  if (!scrollLogged && window.scrollY > 300) {
-    scrollLogged = true;
+      window.addEventListener("scroll", () => {
+        if (!scrollLogged && window.scrollY > 300) {
+          scrollLogged = true;
 
-    trackInteraction({
-      type: "scroll",
-      target: "page",
-      value: "300px"
-    });
-  }
-});
+          trackInteraction({
+            type: "scroll",
+            target: "page",
+            value: "300px",
+          });
+        }
+      });
 
-document.querySelectorAll(".navbar a").forEach(link => {
-  link.addEventListener("click", () => {
-    trackInteraction({
-      type: "click",
-      target: "navbar-link",
-      label: link.textContent.trim()
-    });
-  });
-});
+      document.querySelectorAll(".navbar a").forEach((link) => {
+        link.addEventListener("click", () => {
+          trackInteraction({
+            type: "click",
+            target: "navbar-link",
+            label: link.textContent.trim(),
+          });
+        });
+      });
 
-/* MENÚ HAMBURGUESA */
-const hamburger = document.getElementById('hamburger');
-const mobileMenu = document.getElementById('mobileMenu');
+      /* MENÚ HAMBURGUESA */
+      const hamburger = document.getElementById("hamburger");
+      const mobileMenu = document.getElementById("mobileMenu");
 
-hamburger.addEventListener("click", () => {
-  trackInteraction({
-    type: "click",
-    target: "hamburger-menu"
-  });
-});
+      hamburger.addEventListener("click", () => {
+        trackInteraction({
+          type: "click",
+          target: "hamburger-menu",
+        });
+      });
 
-hamburger.addEventListener('click', () => {
-  mobileMenu.classList.toggle('show');
-});
+      hamburger.addEventListener("click", () => {
+        mobileMenu.classList.toggle("show");
+      });
 
-  /* =====================================================
-     CAROUSEL – FUNCIONA PARA TODAS LAS CARDS
-  ====================================================== */
-  document.querySelectorAll(".carousel").forEach(carousel => {
-    const images = carousel.querySelectorAll("img");
-    let index = 0;
+      /* =====================================================
+   CAROUSEL – FUNCIONA PARA TODAS LAS CARDS
+====================================================== */
+      document.querySelectorAll(".carousel").forEach((carousel) => {
+        const images = carousel.querySelectorAll("img");
+        const card = carousel.closest(".card"); // CORREGIDO: card definido
+        let index = 0;
 
-    function showImage(i) {
-      images.forEach(img => img.classList.remove("active"));
-      images[i].classList.add("active");
-    }
+        function showImage(i) {
+          images.forEach((img) => img.classList.remove("active"));
+          images[i].classList.add("active");
+        }
 
-    carousel.querySelector(".arrow.left").addEventListener("click", () => {
-      index = (index - 1 + images.length) % images.length;
-      showImage(index);
-      registerEvent("carousel-prev", card.dataset.product);
+        carousel.querySelector(".arrow.left").addEventListener("click", () => {
+          index = (index - 1 + images.length) % images.length;
+          showImage(index);
 
+          registerEvent("carousel-prev", card.dataset.product);
+
+          trackInteraction({
+            type: "click",
+            target: "carousel-prev",
+            product: card.dataset.product,
+            version: card.dataset.version,
+          });
+        });
+
+        carousel.querySelector(".arrow.right").addEventListener("click", () => {
+          index = (index + 1) % images.length;
+          showImage(index);
+
+          registerEvent("carousel-next", card.dataset.product);
+
+          trackInteraction({
+            type: "click",
+            target: "carousel-next",
+            product: card.dataset.product,
+            version: card.dataset.version,
+          });
+        });
+      });
+
+      /* =====================================================
+   TRACKING INTERNO (NO VISIBLE PARA EL USUARIO)
+====================================================== */
+      function registerEvent(action, product) {
+        const logs = JSON.parse(localStorage.getItem("ab_global_logs")) || [];
+
+        logs.push({
+          version: localStorage.getItem("ab_version"),
+          action: action,
+          product: product,
+          timestamp: new Date().toISOString(),
+        });
+
+        localStorage.setItem("ab_global_logs", JSON.stringify(logs));
+        console.log("TRACKING:", logs.at(-1));
+      }
+
+      // Tracking del CTA
+      document.querySelectorAll(".cta").forEach((button) => {
+        button.addEventListener("click", (e) => {
+          const card = e.target.closest(".card");
+
+          registerEvent("cta-click", card.dataset.product); // CORREGIDO: registrar cta-click
+          trackInteraction({
+            type: "click",
+            target: "cta",
+            product: card.dataset.product,
+            version: card.dataset.version,
+          });
+        });
+      });
+
+      function registerImpression(version) {
+        const logs = JSON.parse(localStorage.getItem("ab_global_logs")) || [];
+
+        logs.push({
+          action: "impression",
+          version,
+          timestamp: new Date().toISOString(),
+        });
+
+        localStorage.setItem("ab_global_logs", JSON.stringify(logs));
+      }
+
+      function trackInteraction(data) {
+        const logs = JSON.parse(localStorage.getItem("ux_interactions")) || [];
+
+        logs.push({
+          ...data,
+          timestamp: new Date().toISOString(),
+        });
+
+        localStorage.setItem("ux_interactions", JSON.stringify(logs));
+
+        console.log("📊 UX EVENT:", data);
+      }
+
+      // Registrar impresión de la sección de productos
       trackInteraction({
-      type: "click",
-      target: "carousel-prev",
-      product: card.dataset.product,
-      version: card.dataset.version
-});
+        type: "impression",
+        version: localStorage.getItem("ab_version"), // CORREGIDO: version definido
+        target: "product-section",
+      });
 
-  });
+      function getConversionStats() {
+        const logs = JSON.parse(localStorage.getItem("ab_global_logs")) || [];
 
-    carousel.querySelector(".arrow.right").addEventListener("click", () => {
-      index = (index + 1) % images.length;
-      showImage(index);
-      registerEvent("carousel-next", card.dataset.product);
-      
-      trackInteraction({
-      type: "click",
-      target: "carousel-next",
-      product: card.dataset.product,
-      version: card.dataset.version
-  });
-    });
-  });
+        const stats = {
+          A: { impressions: 0, conversions: 0 },
+          B: { impressions: 0, conversions: 0 },
+        };
 
+        logs.forEach((log) => {
+          if (!stats[log.version]) return;
 
-  /* =====================================================
-     TRACKING INTERNO (NO VISIBLE PARA EL USUARIO)
-  ====================================================== */
+          if (log.action === "impression") {
+            stats[log.version].impressions++;
+          }
 
-  function registerEvent(action, product) {
-  const logs = JSON.parse(localStorage.getItem("ab_global_logs")) || [];
+          if (log.action === "cta-click") {
+            stats[log.version].conversions++;
+          }
+        });
 
-  logs.push({
-    version: localStorage.getItem("ab_version"),
-    action: action,
-    product: product,
-    timestamp: new Date().toISOString()
-  });
+        return stats;
+      }
 
-  localStorage.setItem("ab_global_logs", JSON.stringify(logs));
+      function getConversionRate() {
+        const stats = getConversionStats();
 
-  console.log("TRACKING:", logs.at(-1));
-}
-  // Tracking del CTA
-document.querySelectorAll(".cta").forEach(button => {
-  button.addEventListener("click", e => {
-    const card = e.target.closest(".card");
+        return {
+          A: stats.A.impressions
+            ? ((stats.A.conversions / stats.A.impressions) * 100).toFixed(2) +
+              "%"
+            : "0%",
+          B: stats.B.impressions
+            ? ((stats.B.conversions / stats.B.impressions) * 100).toFixed(2) +
+              "%"
+            : "0%",
+        };
+      }
 
-    trackInteraction({
-      type: "click",
-      target: "cta",
-      product: card.dataset.product,
-      version: card.dataset.version
-    });
-  });
-});
+      function exportABLogsToCSV() {
+        const logs = JSON.parse(localStorage.getItem("ab_global_logs")) || [];
 
-function registerImpression(version) {
-  const logs = JSON.parse(localStorage.getItem("ab_global_logs")) || [];
+        if (!logs.length) {
+          alert("No hay datos para exportar");
+          return;
+        }
 
-  logs.push({
-    action: "impression",
-    version,
-    timestamp: new Date().toISOString()
-  });
+        const headers = ["version", "action", "product", "timestamp"];
+        const rows = logs.map((log) =>
+          headers.map((h) => `"${log[h] || ""}"`).join(",")
+        );
 
-  localStorage.setItem("ab_global_logs", JSON.stringify(logs));
-}
+        const csvContent = [headers.join(","), ...rows].join("\n");
 
-function assignABVersion() {
-  let version = localStorage.getItem("ab_version");
+        const blob = new Blob([csvContent], {
+          type: "text/csv;charset=utf-8;",
+        });
+        const url = URL.createObjectURL(blob);
 
-  if (!version) {
-    version = Math.random() < 0.5 ? "A" : "B";
-    localStorage.setItem("ab_version", version);
-  }
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "ab_test_logs.csv";
+        link.click();
 
-  document.getElementById("version-a").classList.add("hidden");
-  document.getElementById("version-b").classList.add("hidden");
+        URL.revokeObjectURL(url);
+      }
+    </script>
 
-  document.getElementById(
-    version === "A" ? "version-a" : "version-b"
-  ).classList.remove("hidden");
-
-  //  registrar impresión
-  registerImpression(version);
-}
-
-function trackInteraction(data) {
-  const logs = JSON.parse(localStorage.getItem("ux_interactions")) || [];
-
-  logs.push({
-    ...data,
-    timestamp: new Date().toISOString()
-  });
-
-  localStorage.setItem("ux_interactions", JSON.stringify(logs));
-
-  // Mostrar en consola (solo para ti)
-  console.log("📊 UX EVENT:", data);
-}
-
-trackInteraction({
-  type: "impression",
-  version: version,
-  target: "product-section"
-});
-
-function getConversionStats() {
-  const logs = JSON.parse(localStorage.getItem("ab_global_logs")) || [];
-
-  const stats = {
-    A: { impressions: 0, conversions: 0 },
-    B: { impressions: 0, conversions: 0 }
-  };
-
-  logs.forEach(log => {
-    if (!stats[log.version]) return;
-
-    if (log.action === "impression") {
-      stats[log.version].impressions++;
-    }
-
-    if (log.action === "cta-click") {
-      stats[log.version].conversions++;
-    }
-  });
-
-  return stats;
-}
-
-function getConversionRate() {
-  const stats = getConversionStats();
-
-  return {
-    A: stats.A.impressions
-      ? ((stats.A.conversions / stats.A.impressions) * 100).toFixed(2) + "%"
-      : "0%",
-    B: stats.B.impressions
-      ? ((stats.B.conversions / stats.B.impressions) * 100).toFixed(2) + "%"
-      : "0%"
-  };
-}
-
-function exportABLogsToCSV() {
-  const logs = JSON.parse(localStorage.getItem("ab_global_logs")) || [];
-
-  if (!logs.length) {
-    alert("No hay datos para exportar");
-    return;
-  }
-
-  const headers = ["version", "action", "product", "timestamp"];
-  const rows = logs.map(log =>
-    headers.map(h => `"${log[h] || ""}"`).join(",")
-  );
-
-  const csvContent = [headers.join(","), ...rows].join("\n");
-
-  const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
-  const url = URL.createObjectURL(blob);
-
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = "ab_test_logs.csv";
-  link.click();
-
-  URL.revokeObjectURL(url);
-}
-
-</script>
-
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
